@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app_header {
+    @apply w-full
+    px-5
+    py-4
+    flex
+    items-center
+}

@@ -8,7 +8,15 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+* {
+  /* border: 1px solid red !important; */
+}
+
+html, body {
+  @apply w-full h-full flex flex-col
+}
+
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
